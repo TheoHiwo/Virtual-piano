@@ -1,5 +1,6 @@
 
 // white keys
+
 document.addEventListener("keydown", function(event) {
     if (event.code === "KeyA") {
         let audio = new Audio("white_keys2/C.wav")
